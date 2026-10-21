@@ -6,7 +6,7 @@ window.MABASA = {
   email: "neomabasa16@gmail.com",            // REPLACE: e.g. "hello@yourdomain.co.za"
   whatsapp: "27716650107",         // REPLACE: international format, digits only, e.g. "27XXXXXXXXX"
   phone: "+27716650107",            // REPLACE: e.g. "+27XXXXXXXXX" (optional)
-  siteUrl: "",          // REPLACE once live: e.g. "https://www.yourdomain.co.za"
+  siteUrl: "https://mabasadigitalgroup.vercel.app/",          // REPLACE once live: e.g. "https://www.yourdomain.co.za"
   social: { LinkedIn: "", Facebook: "", Instagram: "", X: "" },
   currency: "R",
   whatsappMessage: "Hello Mabasa Digital Group! I am interested in your website development services. Could we discuss my project?",
@@ -28,15 +28,15 @@ window.MABASA = {
   // Prices: set price to a number (e.g. 4500) to show "From R4 500". null shows "Request a Quote".
   packages: [
     {
-      name: "Starter Website", audience: "For individuals, freelancers and new businesses.", price: null,
+      name: "Starter Website", audience: "For individuals, freelancers and new businesses.", price: 1500 "excluding additional costs",
       features: ["A simple professional website", "Responsive design", "Essential business information", "Contact links or a contact form", "Basic SEO setup"]
     },
     {
-      name: "Business Website", audience: "For established businesses needing a stronger online presence.", price: null, featured: true,
+      name: "Business Website", audience: "For established businesses needing a stronger online presence.", price: 2500 "excluding additional costs", featured: true,
       features: ["Multiple pages", "Custom styling", "Services and portfolio sections", "Contact form", "Basic SEO", "Social media integration"]
     },
     {
-      name: "Advanced Website", audience: "For businesses needing additional functionality.", price: null,
+      name: "Advanced Website", audience: "For businesses needing additional functionality.", price: 3500 "excluding additional costs",
       features: ["Extensive custom design", "Additional pages", "Suitable integrations with other services", "Advanced forms or workflows", "Additional testing and optimisation"]
     }
   ],

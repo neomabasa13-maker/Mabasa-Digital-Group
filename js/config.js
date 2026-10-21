@@ -28,15 +28,15 @@ window.MABASA = {
   // Prices: set price to a number (e.g. 4500) to show "From R4 500". null shows "Request a Quote".
   packages: [
     {
-      name: "Starter Website", audience: "For individuals, freelancers and new businesses.", price: 1500 "excluding additional costs",
+      name: "Starter Website", audience: "For individuals, freelancers and new businesses.", price: 1500,
       features: ["A simple professional website", "Responsive design", "Essential business information", "Contact links or a contact form", "Basic SEO setup"]
     },
     {
-      name: "Business Website", audience: "For established businesses needing a stronger online presence.", price: 2500 "excluding additional costs", featured: true,
+      name: "Business Website", audience: "For established businesses needing a stronger online presence.", price: 2500, featured: true,
       features: ["Multiple pages", "Custom styling", "Services and portfolio sections", "Contact form", "Basic SEO", "Social media integration"]
     },
     {
-      name: "Advanced Website", audience: "For businesses needing additional functionality.", price: 3500 "excluding additional costs",
+      name: "Advanced Website", audience: "For businesses needing additional functionality.", price: 3500,
       features: ["Extensive custom design", "Additional pages", "Suitable integrations with other services", "Advanced forms or workflows", "Additional testing and optimisation"]
     }
   ],
